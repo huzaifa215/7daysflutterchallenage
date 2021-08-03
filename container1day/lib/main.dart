@@ -38,30 +38,32 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text("Day 1 "),
       ),
-      body:Container(
-        height:20,
-        width: 20,
-        padding: EdgeInsets.all(20),
-        margin: EdgeInsets.all(20),
-        alignment: Alignment.center,
-        decoration: BoxDecoration(
-          // color: Colors.deepOrange,
-         gradient: LinearGradient(
-           colors: [
-           Colors.orange,
-           Colors.deepOrange,
-           ],
-         ),
-         boxShadow: [
-           BoxShadow(
-             spreadRadius: 10,
-             blurRadius: 20,
-             color: Colors.grey,
-             offset: Offset(0,5),
+      body:Center(
+        child: Container(
+          height:200,
+          width: 200,
+          padding: EdgeInsets.all(20),
+          margin: EdgeInsets.all(20),
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            // color: Colors.deepOrange,
+           gradient: LinearGradient(
+             colors: [
+             Colors.orange,
+             Colors.deepOrange,
+             ],
            ),
-         ]
+           boxShadow: [
+             BoxShadow(
+               spreadRadius: 10,
+               blurRadius: 20,
+               color: Colors.grey,
+               offset: Offset(0,5),
+             ),
+           ]
+          ),
+          child: Text("Hello World"),
         ),
-        child: Text("Hello World"),
       ),
     );
   }
