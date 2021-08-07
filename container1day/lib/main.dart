@@ -1,5 +1,6 @@
 import 'package:container1day/imagesWidget.dart';
 import 'package:container1day/secondScreen.dart';
+import 'package:container1day/singleScreen.dart';
 import 'package:container1day/textStyleWidget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:ImageWidget()// TextStyleWidget()//MyHomePage(title: 'Flutter Demo Home Page'),
+      home:SingleScreen()//ImageWidget()// TextStyleWidget()//MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
