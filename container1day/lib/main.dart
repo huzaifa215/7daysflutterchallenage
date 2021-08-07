@@ -1,3 +1,4 @@
+import 'package:container1day/imagesWidget.dart';
 import 'package:container1day/secondScreen.dart';
 import 'package:container1day/textStyleWidget.dart';
 import 'package:flutter/cupertino.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TextStyleWidget()//MyHomePage(title: 'Flutter Demo Home Page'),
+      home:ImageWidget()// TextStyleWidget()//MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
